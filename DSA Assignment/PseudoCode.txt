@@ -1,0 +1,49 @@
+1. Insert Contact
+
+Function insertContact(phonebook, contact):
+    if phonebook is not full:
+        append contact to phonebook
+    else:
+        print "Phonebook is full"
+
+
+2. Search Contact
+
+Function searchContact(phonebook, contactName):
+    for each contact in phonebook:
+        if contact.name == contactName:
+            return contact
+    return "Contact not found"
+
+
+3. Display All Contacts
+
+Function displayContacts(phonebook):
+    for each contact in phonebook:
+        print contact details
+
+
+4. Delete Contact
+
+Function deleteContact(phonebook, contactName):
+    for each contact in phonebook:
+        if contact.name == contactName:
+            remove contact from phonebook
+            return "Contact deleted"
+    return "Contact not found"
+
+
+5. Update Contact
+
+Function updateContact(phonebook, contactName, newDetails):
+    for each contact in phonebook:
+        if contact.name == contactName:
+            update contact with newDetails
+            return "Contact updated"
+    return "Contact not found"
+
+
+6. Sort Contacts (Optional)
+
+Function sortContacts(phonebook):
+    sort phonebook by contact names in alphabetical order
